@@ -8,14 +8,11 @@ package com.goit.g2popov.module11.module10;
  **/
 public class Runner {
 
-        private static final String PATH_WAY = "D:\\Java2016/Module10/src/SampleFile.txt";
+        private static final String PATH_WAY = "C:\\ActualFile.txt";
 
         public static void main(String[] args) {
                 FileCipher fileCipher = new FileCipher(PATH_WAY);
                 fileCipher.writeByLineCoded();
                 fileCipher.readByLineDecoded();
-
-                /*String workingDir = System.getProperty("user.dir");
-                System.out.println(workingDir);*/
         }
 }
